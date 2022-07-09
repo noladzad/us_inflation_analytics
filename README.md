@@ -1,6 +1,6 @@
 # Contemporary Study on US Economic Data
 
-Authors:  **Saif Ahmed Chowdhury** and **Nastaran Oladzadabbasabady**
+Authors:  **Nastaran Oladzadabbasabady** and **Saif Ahmed Chowdhury** 
 
 ---
 
@@ -8,7 +8,7 @@ Authors:  **Saif Ahmed Chowdhury** and **Nastaran Oladzadabbasabady**
 
 These days the surge in the United States (US) inflation is one of the hottest topics in the news and almost all of us are experiencing its implications throughout our daily lives.
 
-This project aims to do a brief analysis on the US inflation and the online database, Federal Reserve Economic Data (FRED) is used for this purpose. The type of data available in this website is json. Based on the nature of the economic metric under study, the associated data updates monthly, seasonally, or annually etc. 
+This project aims to do a brief analysis on the US inflation and the online database, Federal Reserve Economic Data (FRED) is used for this purpose. The type of data available in this website is json. Based on the nature of the economic metric under study, the associated data updates monthly, seasonally, annually, and etc. 
 
 The details of connecting to the mentioned database, retrieve the required data, and conduct the analysis are provided in the following sections.
 
@@ -18,7 +18,7 @@ For a more detailed explanation on this study, refer to the following link https
 
 ## Sources
 
-The main source of this study is FRED® API, which is a web service that allows developers to write programs and build applications that retrieve economic data from the FRED® and ALFRED® websites hosted by the Economic Research Division of the Federal Reserve Bank of St. Louis. Requests can be customized according to data source, release, category, series, and other preferences.
+The main source of this study is FRED® API, which is a web service that allows developers to write programs and build applications that retrieve economic data from the FRED® and ALFRED® websites hosted by the Economic Research Division of the Federal Reserve Bank of St. Louis. Requests can be customized according to the data source, release, category, series, and other preferences.
 
 For documentation regarding Fred API, refer to the following link https://fred.stlouisfed.org/docs/api/fred/#API 
 
@@ -29,9 +29,9 @@ For exploring FRED data, refer to the following link https://fred.stlouisfed.org
 ## Code Structure
 ```
 .
-└── Homework7/
-    ├── noladzad_saifahme_fred.ipynb
-    ├── noladzad_saifahme_fred.py
+└── us_inflation_analytics/
+    ├── fred_analysis.ipynb
+    ├── fred_analysis.py
     ├── APIsecret.json
     ├── Images    
     └── README.md
@@ -317,18 +317,18 @@ doc.generate_pdf(compiler='pdflatex')
 
 1. Open a terminal window.
 
-2. Change directories to where `noladzad_saifahme_fred.py` is saved.
+2. Change directories to where `fred_analysis.py` is saved.
 
 3. Type the following command:
 	```
-	noladzad_saifahme_fred.py
+	fred_analysis.py
 	```
 
 ---
 
 4. A couple of popups will appear prompting the user to install some additional dependency files. Simply click install and proceed until the script compiles.
 
-5. The script will generate some images along with the pdf compilation named **hw7**.
+5. The script will generate some images along with the pdf compilation named **us_inflation_analytics**.
 
 ## Suggestions
 
