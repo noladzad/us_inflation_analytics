@@ -301,9 +301,9 @@ CPI_pred
 #######
 
 geometry_options = {"right": "2cm", "left": "2cm"}
-doc = Document('hw7', geometry_options=geometry_options)
+doc = Document('us_inflation_analytics', geometry_options=geometry_options)
 
-doc.append('IE 555 Homework 7 (Contemporary Study on US Economic Data)')
+doc.append('Contemporary Study on US Economic Data')
 
 with doc.create(Section('Compilation of all Diagrams')):
     with doc.create(Figure(position='h')) as plot:
